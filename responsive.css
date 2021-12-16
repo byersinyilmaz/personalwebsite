@@ -1,0 +1,204 @@
+/* Header */
+
+@media screen and (max-width: 768px){
+    
+      
+  
+      .header .logo a img{
+          width: 150px;
+          margin-left: -130px;
+          margin-top: 5px;
+      }
+  
+      .socialmedia a img{
+          width: 17px;
+          height: 17px;
+          margin-left: 35px;
+        }
+  
+      .socialmedia{
+        display: contents;
+        
+        }
+
+        .socialmedia a{
+            margin: 0 0px;
+        }
+  
+      .navigation{
+          margin-right: -90px;
+          margin-top: -35px;
+      }
+  
+      .menu-link{
+          font-size: 20px;
+      }
+
+    
+        
+    
+  
+  }
+
+  /* Hero Container  */
+
+@media screen and (max-width: 768px){
+    
+    
+    .hero-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    
+    .left img{
+        width: 300px;
+        height: 300px;
+        margin-top: 40px;
+        justify-content: center;
+    
+    }
+
+    .hero-container .right h1{
+width: 274px;
+height: 100px;
+font-weight: 200px;
+font-size: 35px;
+line-height: 49px;
+padding: 0 5px;
+    }
+
+    .hero-container .right p{
+width: 400px;
+height: 57px;
+font-weight: 300px;
+font-size: 14px;
+line-height: 19px;
+padding: 0 5px;
+    }
+
+    .hero-container .right{
+        margin-top: 40px;
+    }
+}
+
+/* Abilities-Works */
+
+@media screen and (max-width: 768px){
+    
+    
+    .paragraph p{
+    justify-content: center;
+    text-align: center;
+    width: 90px;
+height: 19px;
+font-size: 16px;
+line-height: 19px;
+   }
+
+   
+    
+.abilities ul{
+        
+       
+        justify-content: center;
+    
+    }
+    
+    .abilities ul li{
+        border-radius: 10px;
+        width: 33vh;
+        height: 41px;
+        font-size: 12px;
+        /*  */
+        
+        border: solid 1px black;
+        padding: 10px 22px;
+    
+        
+        text-align: center;
+        margin: 10px 20px;
+    }
+
+    .abilities ul li:hover{
+    
+        box-shadow: inset 190px 0 0 0 black;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        }
+
+    .paragraph-2 p{
+        justify-content: center;
+        text-align: center;
+        width: 90px;
+    height: 19px;
+    font-size: 16px;
+    line-height: 19px;
+        }
+
+        .works-list li h3{
+            font-size: 14px;
+        }
+
+        .works-list li p{
+            font-size: 13px;
+            width: 200px;
+            
+        }
+
+        .ability{
+            margin-top: -50px;
+        }
+
+        .works{
+            margin-top: -50px;
+            
+        }
+        .works-list{
+            margin-top: 10px;
+            
+            
+        }
+        .works-list ul li{
+            padding: 10px;
+            padding-bottom: 20px;
+        }
+
+
+}
+
+/* Footer */
+
+@media screen and (max-width: 768px){
+    
+
+    .row{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        margin-left: -30px;
+        margin-top: 40px;
+
+    }
+    
+    
+    .row img{
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+    }
+
+    .row h3{
+        font-size: 12px;
+        width: 110px;
+        
+    }
+
+    .copyright p{
+        font-size: 12px;
+        width: 100px;
+        margin-top: 70px;
+       justify-content: center;
+       align-items: center;
+       }
+}
